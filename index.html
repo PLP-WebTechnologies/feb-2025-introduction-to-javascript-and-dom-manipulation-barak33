@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .dynamic-text {
+            color: blue;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .new-element {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Interactive Webpage</h1>
+    </header>
+    <section>
+        <p class="dynamic-text">This text will be changed dynamically!</p>
+        <div>
+            <button id="changeTextButton">Change Text</button>
+            <button id="addElementButton">Add Element</button>
+            <button id="removeElementButton">Remove Element</button>
+        </div>
+        <div id="container">
+            <p>Existing element in the container.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Dynamic Webpage</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
